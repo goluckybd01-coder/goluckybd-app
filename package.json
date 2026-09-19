@@ -8,6 +8,9 @@
     "dev:mobile": "yarn workspace @goluckybd/mobile start",
     "build:web": "yarn workspace @goluckybd/web build",
     "build:tokens": "yarn workspace @goluckybd/design-tokens build",
+    "db:migrate": "supabase db push",
+    "db:seed": "supabase db seed",
+    "db:reset": "supabase db reset",
     "lint": "yarn workspaces run lint",
     "clean": "yarn workspaces run clean"
   },
