@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "GoLuckyBD", "slug": "goluckybd", "version": "1.0.0", "orientation": "portrait",
+    "icon": "./assets/icon.png", "userInterfaceStyle": "automatic",
+    "splash": { "image": "./assets/splash.png", "resizeMode": "contain", "backgroundColor": "#0F1115" },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.goluckybd.app", "buildNumber": "1" },
+    "android": { "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#0F1115" }, "package": "com.goluckybd.app", "versionCode": 1 },
+    "plugins": ["expo-router", "expo-font", "expo-secure-store", ["expo-image", { "photosPermission": "Allow GoLuckyBD to access your photos." }]],
+    "experiments": { "typedRoutes": true }, "scheme": "goluckybd"
+  }
+}

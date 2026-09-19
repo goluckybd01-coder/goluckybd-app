@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg-primary: #FAFAF8; --bg-secondary: #F5F3EE; --surface-primary: #FFFFFF; --border-subtle: #D7D2C8; --text-primary: #2D2D2D; --text-secondary: #5F5F5F; --text-muted: #A0A0A0; --accent-primary: #7B5EA7; --accent-secondary: #D4AF37; }
+.dark { --bg-primary: #0F1115; --bg-secondary: #161920; --surface-primary: #20242E; --border-subtle: #2D323E; --text-primary: #FAFAF8; --text-secondary: #BEBEBE; --text-muted: #A0A0A0; --accent-primary: #967DBE; --accent-secondary: #E1C864; }
+body { background-color: var(--bg-primary); color: var(--text-primary); }
+.gradient-sovereign { background: linear-gradient(135deg, #0F1115 0%, #1a1230 50%, #0F1115 100%); }
+.glow-amethyst { box-shadow: 0 0 20px rgba(123,94,167,0.4), 0 0 60px rgba(123,94,167,0.15); }
+.glass { backdrop-filter: blur(20px) saturate(180%); background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1); }
